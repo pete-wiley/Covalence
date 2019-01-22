@@ -1,0 +1,82 @@
+body {
+    background-image: linear-gradient(to right, #141e30, #243b55)
+}
+
+h1 {
+    color: white;
+    text-align: center;
+    font-family: 'Sarabun', sans-serif;
+}
+
+.friends > h3 {
+    text-transform: uppercase;
+}
+
+.friends {
+    background-color: #4ca1af;
+    text-align: center;
+    border-radius: 15px;
+    font-family: 'Sarabun', sans-serif;
+    padding: 1.5px
+}
+
+h2 {
+    color: white;
+    font-family: 'Sarabun', sans-serif;
+    text-align: center;
+}
+
+.run-flex {
+    display: flex;
+    justify-content: center
+}
+
+.run {
+    padding: 10px;
+    border: 1px solid white;
+    border-radius: 7.5px;
+    cursor: pointer;
+    
+}
+
+.status {
+    display: flex;
+    justify-content: space-evenly;
+    color: white;
+    font-family: 'Sarabun', sans-serif;
+}
+
+.swap-button {
+    border: 1px solid white;
+    padding: 10px;
+    border-radius: 7.5px;
+    cursor: pointer;
+}
+
+#names-status {
+    padding: 10px;
+}
+
+.user-input {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding-top: 20px;
+    height: 25px
+}
+
+.add-a-name {
+    color: white;
+    font-family: 'Sarabun', sans-serif;
+    font-size: 25px
+}
+
+.reset {
+    color: white;
+    font-family: 'Sarabun', sans-serif;
+    font-size: 20px;
+    border: 1px solid white;
+    border-radius: 7.5px;
+    padding: 10px;
+    cursor: pointer;
+}
